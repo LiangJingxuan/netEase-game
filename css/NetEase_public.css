@@ -1,0 +1,12 @@
+body,div,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,span,a,em,rem,strong{margin: 0;padding: 0}
+a{text-decoration: none;color: #888;}
+li{list-style: none;}
+body{font: 16px "微软雅黑","Arial";color: #666;background: #17191B;}
+body{font-size:1.2rem}
+img{border: none;}
+/* Let's get this party started */
+::-webkit-scrollbar {width: 0px;height: 10px;} 
+/* Track */
+::-webkit-scrollbar-track {-webkit-border-radius: 0px;border-radius: 0px;} 
+/* Handle */
+::-webkit-scrollbar-thumb {-webkit-border-radius: 10px;border-radius: 0px;background: #CCCCCC;}

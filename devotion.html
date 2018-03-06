@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>网易游戏官网_游戏热爱者</title>
+		<meta name="keywords" content="网易游戏,网易,网游,网络游戏,在线游戏,游戏,回合制,大型角色扮演,回合制,2D,3D,梦幻西游2,大话西游Ⅱ,大话西游,梦幻,大话,魔兽世界,魔兽,wow,天下3,大唐无双2,游戏热爱者,热爱才懂,指尖的热爱">
+		<meta name="description" content="我和你一样，我们都是游戏热爱者。网易在线游戏自主研发运营多款在线游戏，包括《大话西游Ⅱ》、《梦幻西游2》、《新大话西游3 》、《武魂》、《天下3》、《大唐无双2》、《倩女幽魂2》、《新飞飞》等。此外，网易还具有《魔兽世界》、《星际争霸Ⅱ》、《魔兽争霸Ⅲ:混乱之治》、《魔兽争霸Ⅲ:冰封王座》在中国大陆的独家运营权。网易游戏 在中国MMORPG游戏市场保持领先地位。">
+		<link rel="shortcut icon" href="img/NetEase.ico">
+		<link rel="stylesheet" href="css/NetEase_public.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/devotion.css">
+    <script type="text/javascript" src="js/jquery.min.js" ></script>
+    <script type="text/javascript" src="js/swiper.min.js" ></script>
+		<!--[if lte IE 12]><script type="text/javascript">window.location = "http://www.e0575.com/web/ie6bye/";</script><![endif]-->
+  </head>
+  <body>
+    <!-- 导航 -->
+    <a href="index.html" class="dlogo"></a>
+    <div class="dbtn">
+      <a class="btna"></a>
+      <div>
+        <ul>
+          <li><a href="">游戏，热爱才懂</a><i>.</i></li>
+          <li><a href="">网易游戏APP</a><i>.</i></li>
+          <li><a href="">关于网易游戏</a><i>.</i></li>
+          <li><a href="">网易人才招聘</a><i>.</i></li>
+          <li><a href="">网易客服中心</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- 边框 -->
+    <div class="gotop go"><a></a></div>
+    <!-- <div class="vclose"> x 关闭视频</div> -->
+    <div id="devotionFiex">
+      <div class="devo">
+        <div class="link"></div>
+      </div>
+    </div>
+    <!-- 内容 -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- 0 -->
+        <div class="swiper-slide love1" >
+            <div class="bgScale0">
+              <div class="loveTheme">
+                <div class="iloveyou">
+                  <i class="me"></i>
+                  <i class="you"></i>
+                  <i class="same"></i>
+                  <i class="t1"></i>
+                  <i class="t2"></i>
+                </div>
+                <i class="VBTN"></i>
+              </div>
+              <div class="vbg"></div>
+              <video autoplay loop poster="img/vision-1_b41c4e1.jpg" id="bgvid">
+                <source src="img/280ca21d7d7e693674431c894a67bcc7qt.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="mess0"></div>
+        </div>
+        <!-- 1 -->
+        <div class="swiper-slide love1" >
+            <div class="bgScale1"></div>
+            <div class="mess1">
+              <div class="bigmess1"><img src="img/screen-6-txt_61a20c3.png"></div>
+              <div class="smess1"><img src="img/slogen_7c7bf41.png"></div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="swiper-slide love1" >
+            <div class="bgScale2"></div>
+            <div class="mess2">
+              <div class="bigmess2"><img src="img/screen-3-txt_8e7a5fc.png"></div>
+              <div class="smess2"><img src="img/slogen_7c7bf41.png"></div>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="swiper-slide love1" >
+            <div class="bgScale3"></div>
+            <div class="mess3">
+              <div class="bigmess3"><img src="img/screen-5-txt_24142a3.png"></div>
+              <div class="smess3"><img src="img/slogen_7c7bf41.png"></div>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="swiper-slide love1" >
+            <div class="bgScale4"></div>
+            <div class="mess4">
+              <div class="bigmess4"><img src="img/screen-4-txt_f90cceb.png"></div>
+              <div class="smess4"><img src="img/slogen_7c7bf41.png"></div>
+            </div>
+        </div>
+        <!-- 5 -->
+        <div class="swiper-slide love1" >
+            <div class="bgScale5"></div>
+            <div class="mess5">
+              <div class="bigmess5"><img src="img/screen-2-txt_8427632.png"></div>
+              <div class="smess5"><img src="img/slogen_7c7bf41.png"></div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-pagination indexr"></div>
+    </div>
+    <script>
+      // 视频播放
+      var myVideo = document.getElementById('bgvid');
+      $('.VBTN').hover(function(){
+        $(this).css({'transform':'scale(1.1,1.1)','transitionDelay':'0s'});
+      },function(){
+        $(this).css({'transform':'scale(1,1)','transitionDelay':'0s'});
+      });
+      // 固定导航
+      var g = true;
+      $('.dbtn .btna').click(function(){
+        if(g){
+          $(this).css({'backgroundPositionX':'100px'});
+          $('.dbtn div').width(700);
+          $(this).hover(function(){
+            $(this).css({'backgroundPositionX':'100px'});
+          },function(){
+            $(this).css({'backgroundPositionX':'-200px'});
+          });
+          g=false;
+        }else{
+          $(this).css({'backgroundPositionX':'-100px'});
+          $('.dbtn div').width(0);
+          $(this).hover(function(){
+            $(this).css({'backgroundPositionX':'-100px'});
+          },function(){
+            $(this).css({'backgroundPositionX':0});
+          });
+          g=true;
+        }
+      });
+      // 动画
+      var me = $('.me');var you = $('.you');var same = $('.same');var t1 = $('.t1');var t2 = $('.t2');var vbtn = $('.VBTN');
+      var bg1 = $('.bgScale1');var big1 = $('.bigmess1');var sm1 = $('.smess1');
+      var bg2 = $('.bgScale2');var big2 = $('.bigmess2');var sm2 = $('.smess2');
+      var bg3 = $('.bgScale3');var big3 = $('.bigmess3');var sm3 = $('.smess3');
+      var bg4 = $('.bgScale4');var big4 = $('.bigmess4');var sm4 = $('.smess4');
+      var bg5 = $('.bgScale5');var big5 = $('.bigmess5');var sm5 = $('.smess5');
+      function an0(flag){if(flag){me.css({'opacity':1,'filter':'blur(0)'});same.css({'opacity':1,'filter':'blur(0)'});you.css({'opacity':1,'filter':'blur(0)'});t1.css({'opacity':1,'filter':'blur(0)'});t2.css({'opacity':1,'filter':'blur(0)'});vbtn.css({'opacity':1,'transitionDelay':'5s'});}
+      else{me.css({'opacity':0,'filter':'blur(20px)'});same.css({'opacity':0,'filter':'blur(20px)'});you.css({'opacity':0,'filter':'blur(20px)'});t1.css({'opacity':0,'filter':'blur(20px)'});t2.css({'opacity':0,'filter':'blur(20px)'});vbtn.css({'opacity':0,'transitionDelay':'5s'});}}
+      function an1(flag){if(flag){bg1.css({'transform':'scale(1,1)'});big1.css({'top':0,'opacity':1});sm1.css({'bottom':'30px','opacity':1});}
+      else{bg1.css({'transform':'scale(1.2,1.2)'});big1.css({'top':'30px','opacity':0});sm1.css({'bottom':0,'opacity':0});}}
+      function an2(flag){if(flag){bg2.css({'transform':'scale(1,1)'});big2.css({'top':0,'opacity':1});sm2.css({'bottom':'30px','opacity':1});}
+      else{bg2.css({'transform':'scale(1.2,1.2)'});big2.css({'top':'30px','opacity':0});sm2.css({'bottom':0,'opacity':0});}}
+      function an3(flag){if(flag){bg3.css({'transform':'scale(1,1)'});big3.css({'top':0,'opacity':1});sm3.css({'bottom':'30px','opacity':1});}
+      else{bg3.css({'transform':'scale(1.2,1.2)'});big3.css({'top':'30px','opacity':0});sm3.css({'bottom':0,'opacity':0});}}
+      function an4(flag){if(flag){bg4.css({'transform':'scale(1,1)'});big4.css({'top':0,'opacity':1});sm4.css({'bottom':'30px','opacity':1});}
+      else{bg4.css({'transform':'scale(1.2,1.2)'});big4.css({'top':'30px','opacity':0});sm4.css({'bottom':0,'opacity':0});}}
+      function an5(flag){if(flag){bg5.css({'transform':'scale(1,1)'});big5.css({'top':0,'opacity':1});sm5.css({'bottom':'30px','opacity':1});}
+      else{bg5.css({'transform':'scale(1.2,1.2)'});big5.css({'top':'30px','opacity':0});sm5.css({'bottom':0,'opacity':0});}}
+      // 配置
+      var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton:'.gotop',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 0,
+        mousewheelControl: true,
+        simulateTouch : false,
+        onInit: function(swiper){
+          an0(true);
+          var i = swiper.activeIndex;
+          if(i==0){
+            $('.VBTN').click(function(){
+              an0(false);
+              // 视频播放设置
+              $('<div class="vclose"> x 关闭视频</div>').appendTo('body');
+              $('#bgvid').attr('src','img/1536ed922c435138ef1ed167eb8c686cqt.mp4');
+              $('#bgvid').width('100%');
+              $('.loveTheme').css({'opacity':0});
+              $('.vbg').css({'display':'none'});
+              $('.vclose').css({'display':'block'});
+              $('.vclose').click(function(){
+                $('#bgvid').attr('src','img/280ca21d7d7e693674431c894a67bcc7qt.mp4');
+                $('.loveTheme').css({'opacity':1});
+                $('.vbg').css({'display':'block'});
+                $(this).remove();
+                an0(true);
+              });
+            });
+          }
+        },
+        onSlideChangeEnd: function(swiper){
+          var i = swiper.activeIndex;
+          if(i>0){
+            $('.vclose').css({'display':'none'});
+          }else{
+            $('.vclose').css({'display':'block'});
+          }
+          if(i==0){
+            an0(true);
+            an1(false);
+          }else if(i==1){
+            an0(false);
+            an1(true);
+            an2(false);
+          }else if(i==2){
+            an1(false);
+            an2(true);
+            an3(false);
+          }else if(i==3){
+            an2(false);
+            an3(true);
+            an4(false);
+          }else if(i==4){
+            an3(false);
+            an4(true);
+            an5(false);
+          }else if(i==5){
+            an4(false);
+            an5(true);
+            $('.gotop a').css({'background':'url(img/ico-arrow2_799a0cc.png)','margin':'-8px auto'});
+            $('.go').click(function(){
+              swiper.slideTo(0);
+            });
+          }
+          if(i<5){
+            $('.gotop a').css({'background':'url(img/ico-arrow_0550dda.png)','margin':'2px auto'});
+             $('.go').unbind('click');
+          }
+          if(i>0){
+            myVideo.pause();
+          }else{
+            myVideo.play();
+          }
+        }
+    });
+    </script>
+  </body>
+</html>
