@@ -1,0 +1,91 @@
+/*chinajoyHead*/
+#cjHead{height: 55px;width: 100%;min-width: 1260px;background: #fff;}
+.cjHeadCont{width: 1000px;margin: auto;position:relative;}
+.cjHeadCont .cjCont1{width: 30%;height: 55px;}
+.cjHeadCont .cjCont2{width: 50%;height: 52px;position:absolute;right: 0;top: 0;}
+.cjHeadCont .cjCont2 li{float: left;line-height: 52px;font-size: 14px;padding: 0 20px;}
+.cjHeadCont .cjCont1 a{width: 45%;display: block;height: 45px;background-image: url(../img/logo_b5525b7.png);background-size: 100%;background-position-y: 4px;background-repeat: no-repeat;padding-top: 10px;}
+.cjCont2 .cjClass:hover{border-bottom: 3px solid #C80E2F;background: -webkit-linear-gradient(#F5F5F5,#fff);background: -o-linear-gradient(#F5F5F5,#fff);background: -moz-linear-gradient(#F5F5F5,#fff);background: linear-gradient(#F5F5F5,#fff);}
+.cjCont2 .cjClass:hover .cjClass{color: #C80E2F;}
+.cjCont2 .cjClass{height: 52px;display: block;}
+.cjCont2 .cjClass:last-child:hover{border: none;}
+.cjClasstit i{display: inline-block;width: 9px;height: 4px;background-image: url(../img/sprite-w_7fc7459.png);margin-left: 4px;background-position: -103px -101px;}
+.cjClasstit{color: #C80E2F;}
+/*cjhideClass*/
+#cjhideClass{height: 450px;width: 885px;border-top: 1px solid #E3E3E3;position: absolute;left: -450px;top: 55px;z-index: 9999;background: #fff;filter:alpha(opacity=90);-moz-opacity:0.9;-khtml-opacity: 0.9;opacity: 0.9;display: none;}
+.HideCon .HideCon1{border-right: 1px solid #DACCCE;float: left;}
+.HideCon1{height: 40px;width: 247px;}
+.HideCon1_c{border-right: 1px solid #DACCCE;height: 410px;width: 247px;float: left;}
+.HideCon2_c{width: 165px;}
+.HideCon3_c{width: 322px;position: absolute;left: 166px;}
+.HideCon4_c{border: none;}
+.HideCon4_c ul{width: 70%;}
+.HideCon2_c ul{position: absolute;}
+.HideCon1_c h6{clear: both;}
+.HideCon2{width: 488px;position: relative;height: 448px;}
+.HideCon3{width: 148px;border: none !important;}
+.HideCon1 p,.HideCon1 h6{color: #C80E2F;font-weight: bold;line-height: 40px;padding-left: 30px;background: #EFEAEC;}
+.HideCon1 h6,.HideCon1_ul li a{color: #666;background: none;font-size: 10px;}
+.HideCon1_ul li{clear: both;position: relative;height: 25px;line-height: 0 !important;padding: 0 !important;padding-left: 30px !important;}
+.HideCon1_ul{margin-top: 5px;width: 47%;float: left;}
+.HideCon1_ul li i{width: 18px;height: 9px;display: inline-block;position: absolute;top: -4px;right: -22px;background: url(../img/sprite-w_7fc7459.png);background-position: -212px -276px;}
+.HideCon1_ul li a:hover{color: #C80E2F;}
+.HideIon2{background-position-y: -152px !important;}
+.HideIon3{background-position-y: -214px !important;}
+.HideCon4{position: relative;}
+.HideMoreBtn{display: inline-block;width: 23px;height: 102px;position: absolute;top: 170px;left: -29px;border-radius: 2px;background: #C80E2F;color: #fff;font-size: 12px;line-height: 17px;text-align: center;padding: 3px;}
+.cjClass_new{width: 87px;}
+.cjClass_new a{position: absolute;display: none;width: 87px !important;text-align: center;}
+.cjClassA{display: block !important;width: 87px !important;text-align: center;color: #C80E2F;}
+/*chinajoyBanner*/
+#cjBanner{width: 100%;min-width: 1260px;height: 512px;background-image: url(../img/bg_2ffd4f1.png);background-position-x: center;position: relative;}
+/*cjpaly*/
+@keyframes banPlay{from{transform:rotate(0deg);-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg); -o-transform:rotate(0deg);}to{transform:rotate(360deg);-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);}}
+.cjBplay{width: 111px;height: 111px;background-image: url(../img/play_bg_c8d64de.png);position: absolute;right: 320px;bottom: 130px;}
+.cjBplay div{animation: banPlay 3s linear infinite;cursor: pointer;width: 61px;height: 61px;background-image: url(../img/y2_f9e3223.png);position: absolute;top: -19px;left: -26px;}
+.cjBplay i{cursor: pointer;display: block;width: 15px;height: 23px;background-image: url(../img/play_debd1d3.png);position: absolute;top: 43px;left: 50px;}
+.cjBplay div:hover{animation-play-state: paused;}
+.cjBplay i:hover div{animation-play-state: paused;}
+/*chinajoyNews*/
+#cjNews{width: 100%;min-width: 1260px;height: 705px;background-image: url(../img/bg_7086ab8.jpg);background-position-x: center;margin-top: -59px;}
+/*1*/
+.news1,.n2All{width: 1260px;height: 390px;margin: auto;position: relative;}
+.leftA,.leftA2{width: 690px;height: 280px;position: absolute;top: 90px;overflow: hidden;}
+.rightA{position: absolute;right: 0;top: 90px;width: 550px;height: 280px;}
+.Lbanner,.Lbanner2{width: 3450px;height: 280px;position: relative;}
+.Lbanner li,.Lbanner2 li{position: relative;width: 690px;height: 280px;float: left;}
+.Lbanner li img,.Lbanner2 li img{cursor: pointer;}
+.Lbanner li p,.Lbanner2 li p{width: 140px;height: 260px;background: #CF1132;position: absolute;right: 0;top: 0;color: #fff;font-size: 15px;padding: 10px;line-height: 30px;}
+.leftA div,.leftA2 div{cursor: pointer;height:10px;width:10px;border-radius:50%;background-color:#fff;float:left;margin-left: 2%;opacity:0.4;filter:Alpha(opacity=40);position: relative;top: -22px;left: 578px;transition: opacity 0.3s;}
+.onclick{opacity:0.9 !important;filter:Alpha(opacity=90) !important;}
+.Rteam,.Rbanner{display: inline-block;width: 603px;height: 181px;background: url(../img/whbg_c6d7560.png) no-repeat;position: absolute;top: -52px;}
+.Rbanner{top: 144px;background: url(../img/s1_20d1082.jpg);width: 503px;height: 136px;}
+/*2*/
+.news2{width: 100%;min-width: 1260px;height: 310px;background: #2D2C34;margin-top: 5px;}
+.n2All{height: 310px;position: relative;}
+.left1,.left2,.left3{float: left;margin: 21px 20px 0;}
+.left1{width: 420px;position: relative;}
+.left1 ul{margin-bottom: 20px;}
+.left1 h1{font-size: 18px;color: red;font-weight: normal;width: 420px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.left1 a{font-size: 14px;color: #9d9ca2;line-height: 30px;}
+.left1 span{color: #5E5C6B;font-size: 14px;position: absolute;right: 0;line-height: 30px;}
+.left1 a:hover{color: #5E5C6B;}
+.left2{width: 230px;}
+.left2 ul li{margin-bottom: 3px;transition: opacity 0.5s;}
+.left2 ul li:hover{opacity: 0.5;filter: Alpha(opacity=50);}
+.left2 ul li a{position: relative;display: block;width: 230px;height: 130px;text-align: center;background: url(../img/left2a.jpg);border: 1px solid #5E5C6B;}
+.left2 ul li:last-child a{background: url(../img/left2b.jpg);}
+.left2 ul li a p{position: absolute;bottom: 0;width: 100%;font-size: 14px;line-height: 35px;background: #000000;opacity: 0.7;filter: Alpha(opacity=70);color: #fff;}
+.left3{width: 488px;position: relative;}
+.L3Btn li{font-size: 14px;cursor: pointer;width: 91px;height: 38px;background: url(../img/left_bar_dd0f8fd.png) no-repeat;text-align: center;line-height: 38px;margin-bottom: 5px;}
+.L3Btn li:hover{color: #aba9b0;background: url(../img/slide_nav_9c618ba.png) no-repeat;}
+.bSelect{color: red;background: url(../img/side_nav_h_7ec6aa8.png) no-repeat !important;}
+.bSelect:hover{color: red !important;}
+.L3Con{width: 380px;height: 252px;position: absolute;right: 0;top: 0;}
+.L3Con img{width: 60%;border: 1px solid #454545;}
+.L3Con p{font-size: 16px;line-height: 50px;border-bottom: 1px solid #454545;}
+.L3Con li{display: none;}
+.L3ConS{display: block !important;}
+/*bannerMass*/
+#cjBanmess{width: 100%;min-width: 1260px;height: 10px;background: #27262D;}
+#cjBanmess

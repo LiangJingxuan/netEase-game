@@ -1,0 +1,59 @@
+/*初始配置*/
+html,body{position: relative;height: 100%;}
+.swiper-container{width: 100%;height: 100%;margin-left: auto;margin-right: auto;}
+.swiper-slide{text-align: center;font-size: 18px;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
+.swiper-pagination{z-index:9999;}
+/*内容*/
+.love1{width:100%;height:100%;overflow:hidden;}
+.mess0,.mess1,.mess4,.mess5{position: absolute;left: 150px;top: 220px;width: 600px;height: 300px;}
+.mess5{height:370px;}
+.mess4{height:240px;}
+.mess2,.mess3{position: absolute;right: 150px;top: 220px;width: 600px;height: 350px;}
+.bigmess0 img,.bigmess1 img{width:70%;}
+.bigmess2 img,.bigmess3 img,.bigmess4 img,.bigmess5 img{width:55%;}
+.bigmess5 img{width:50%;}
+.smess0 img,.smess1 img,.smess2 img,.smess3 img,.smess4 img,.smess5 img{width:70%;}
+.smess2,.smess3,.smess4,.smess5{left:120px !important;}
+/*视频动画*/
+.vclose{font-size:0.7rem;color:#fff;position:absolute;bottom:50px;z-index:9;right:100px;cursor: pointer;}
+.bgScale0{background-position:center;background-size: cover;width:100%;height:100%;transition:all 10s;}
+#bgvid {position: fixed; right: 0; bottom: 0;min-width: 100%; min-height: 100%;width: auto; height: auto; z-index: -100;background: url(../img/vision-1_b41c4e1.jpg) no-repeat;background-size: cover;}
+.vbg{width:100%;height:100%;background:#000;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;opacity: 0.6;pointer-events:none;}
+.loveTheme{width:100%;margin:auto;position:absolute;z-index:9;}
+.iloveyou{width:700px;height:200px;margin:200px auto 0;position:relative;}
+.iloveyou .me{display:inline-block;width:230px;height:169px;background:url('../img/title-font-1_90d25aa.png') no-repeat;position:absolute;left:0;-webkit-filter: blur(20px);-moz-filter: blur(20px); -ms-filter: blur(20px);-o-filter: blur(20px);filter: blur(20px);opacity:0;transition:all 2s;transition-delay: 1s;}
+.iloveyou .you{display:inline-block;width:340px;height:137px;background:url('../img/title-font-3_bb665a7.png') no-repeat;position:absolute;left:230px;top:37px;-webkit-filter: blur(20px);-moz-filter: blur(20px);-ms-filter: blur(20px);-o-filter: blur(20px);filter: blur(20px);opacity:0;transition:all 2s;transition-delay: 2.5s;}
+.iloveyou .same{display:inline-block;width:423px;height:131px;background:url('../img/title-font-2_3be9b12.png') no-repeat;position:absolute;right:36px;top:37px;-webkit-filter: blur(20px);-moz-filter: blur(20px);-ms-filter: blur(20px);-o-filter: blur(20px);filter: blur(20px);opacity:0;transition:all 2s;transition-delay: 2s;}
+.iloveyou .t1{display:inline-block;width:322px;height:13px;background:url('../img/title-font-4_bba2b7f.png') no-repeat;position:absolute;left:230px;bottom:0;-webkit-filter: blur(20px);-moz-filter: blur(20px);-ms-filter: blur(20px);-o-filter: blur(20px);filter: blur(20px);opacity:0;transition:all 2s;transition-delay: 3s;}
+.iloveyou .t2{display:inline-block;width:322px;height:13px;background:url('../img/title-font-5_b6ba938.png') no-repeat;position:absolute;left:246px;bottom:0;-webkit-filter: blur(20px);-moz-filter: blur(20px);-ms-filter: blur(20px);-o-filter: blur(20px);filter: blur(20px);opacity:0;transition:all 2s;transition-delay: 3.5s;}
+.VBTN{display:inline-block;width:50px;height:50px;background:url('../img/btn-play_25b1a15.png') no-repeat;background-size:100%;margin:60px auto 0;;cursor: pointer;opacity:0;transition:all 0.2s;transition-delay: 5s;}
+/*图片动画*/
+.bgScale1{background:url(../img/vision-6_b5ee203.jpg);background-position:center;background-size: cover;width:100%;height:100%;transform:scale(1.2,1.2);transition:all 10s;}
+.bgScale2{background:url(../img/vision-3_12e9e7f.jpg);background-position:center;background-size: cover;width:100%;height:100%;transform:scale(1.2,1.2);transition:all 10s;}
+.bgScale3{background:url(../img/vision-5_e844412.jpg);background-position:center;background-size: cover;width:100%;height:100%;transform:scale(1.2,1.2);transition:all 10s;}
+.bgScale4{background:url(../img/vision-4_099cc85.jpg);background-position:center;background-size: cover;width:100%;height:100%;transform:scale(1.2,1.2);transition:all 10s;}
+.bgScale5{background:url(../img/vision-2_0a7c125.jpg);background-position:center;background-size: cover;width:100%;height:100%;transform:scale(1.2,1.2);transition:all 10s;}
+.bigmess0,.bigmess1,.bigmess2,.bigmess3,.bigmess4,.bigmess5{width:640px;position:absolute;top: 30px;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;opacity: 0;transition:all 1.5s;transition-delay: 1s;}
+.smess0,.smess1,.smess1,.smess2,.smess3,.smess4,.smess5{width: 216px;height: 57px;position:absolute;bottom: 0;left: 70px;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;opacity: 0;transition:all 1s;transition-delay: 2.5s;}
+/*固定*/
+#devotionFiex{width:100%;height:100%;position:absolute;z-index:9;top:0;box-sizing: border-box;pointer-events:none;}
+#devotionFiex .devo{border-left: 3px solid #fff;border-top: 3px solid #fff;width:90%;height:84%;margin:5% auto;filter:alpha(opacity=20);-moz-opacity:0.2;-khtml-opacity: 0.2;opacity: 0.2;background: url(../img/frame-bottom_b0ca1fb.png) 50% 100% no-repeat;position:relative;}
+#devotionFiex .devo .link{width:100%;height:100%;background: url(../img/frame-right_6cd5c9c.png) 100% 50% no-repeat;}
+.gotop{width:100%;height:30px;z-index:9;position:absolute;bottom:15px;}
+.gotop a{display:block;width:63px;height:30px;cursor: pointer;background:url(../img/ico-arrow_0550dda.png);margin:2px auto;}
+.dlogo{display:inline-block;width:232px;height:58px;background:url(../img/logo_110833f.png);position:absolute;top: 80px;left: 90px;z-index: 9;}
+.dbtn{position:absolute;right:90px;top:80px;width:80%;z-index:9999;background:red;}
+.dbtn .btna{width:100px;height:100px;background:url(../img/btn-menu_08fd03e.png);cursor: pointer;z-index:999;transition:opacity 1s;position:absolute;right:0;top:0;}
+.dbtn .btna:hover{opacity:1;background-position-x:-100px;}
+.dbtn div{width:0;overflow:hidden;height:100px;background-color:rgba(0,0,0,.7);position: absolute;right: 100px;transition:width 0.3s}
+.dbtn div ul{width:100%;}
+.dbtn div ul li{float:left;width:115px;height:100px;margin:0 10px;text-align:center;position:relative;}
+.dbtn div ul li:first-child{margin-left: 27px;}
+.dbtn div ul li i{position:absolute;right:-15px;top:33px;font-style:normal}
+.dbtn div ul li a{color:#fff;font-size:0.9rem;line-height:100px;transition:opacity 1s;}
+.dbtn div ul li a:hover{filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity: 0.3;opacity: 0.3;}
+/*索引*/
+.indexr{height:180px;right:4.5% !important;top:57% !important;}
+.indexr span{width:10px;height:10px;border:2px solid #fff;margin:13px 0 !important;transition:all 0.7s}
+.indexr span:hover{background:rgba(255, 255, 255, 0.5);}
+.swiper-pagination-bullet-active{border-color:#CF0F32 !important;background:rgba(207, 15, 50, 0.5) !important;}
